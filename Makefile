@@ -10,7 +10,7 @@ LWDITA_DIR = $(DITA_OT_DIR)/plugins/org.lwdita
 LWDITA_ZIP = org.lwdita-$(LWDITA_VERSION).zip
 LWDITA_URL = https://github.com/jelovirt/org.lwdita/releases/download/$(LWDITA_VERSION)/$(LWDITA_ZIP)
 
-PATH := $(PWD)/$(DITA_OT_DIR):$(PATH)
+PATH := $(PWD)/$(DITA_OT_DIR)/bin:$(PATH)
 DITA = dita
 
 TOPICMAP = $(PWD)/topicmap.tpl.xml
